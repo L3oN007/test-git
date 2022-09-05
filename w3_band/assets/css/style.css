@@ -93,11 +93,6 @@ html{
     background-color: #ccc;
 }
 
-/* #nav li:hover a{
-    color: black;
-    background-color: #ccc;
-} */
-
 #nav .subnav{
     display: none;
     position: absolute;
@@ -111,8 +106,6 @@ html{
     line-height: 24px;
     
 }
-
-
 
 #slider{
     position: relative;
@@ -300,7 +293,7 @@ html{
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     display: none;
     align-items: center;
     justify-content: center;
@@ -316,6 +309,7 @@ html{
     max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     animation: modalFadeIn ease 0.4s;
 }
 
@@ -335,7 +329,7 @@ html{
 }
 
 .modal-header {
-    background-color: #009688;
+    background-color: black;
     height: 130px;
     display: flex;
     align-items: center;
@@ -368,7 +362,7 @@ html{
 
 button#buy-tickets {
     width: 100%;
-    background-color: #009688;
+    background-color: black;
     padding: 16px;
     color: white;
     font-size: 15px;
@@ -379,7 +373,8 @@ button#buy-tickets {
 }
 
 button#buy-tickets:hover{
-    background-color: #ccc;
+    background-color: gray;
+    
 }
 
 .modal-footer{
@@ -388,7 +383,7 @@ button#buy-tickets:hover{
 }
 
 .modal-footer a{
-    color: #009688;
+    color: gray;
 }
 
 @keyframes modalFadeIn{
