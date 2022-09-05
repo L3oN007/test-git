@@ -329,7 +329,7 @@ html{
 }
 
 .modal-header {
-    background-color: black;
+    background-color: rgb(43,108,137);
     height: 130px;
     display: flex;
     align-items: center;
@@ -362,7 +362,7 @@ html{
 
 button#buy-tickets {
     width: 100%;
-    background-color: black;
+    background-color: rgb(43,108,137);
     padding: 16px;
     color: white;
     font-size: 15px;
