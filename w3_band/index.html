@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mount Everest</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
@@ -157,6 +157,49 @@
       </div>
 
       <div id="footer"></div>
+    </div>
+    <div class="modal">
+      <div class="modal-container">
+        <div class="modal-close-btn">
+          <i class="ti-close"></i>
+        </div>
+        <header class="modal-header">
+          <i class="modal-heading-icon ti-bag"></i>
+          Tickets
+        </header>
+
+        <div class="modal-body">
+          <!-- How many tickets -->
+          <label for="ticket-quantity" class="modal-label">
+            <i class="ti-shopping-cart"></i>
+            Tickets, $15 per person
+          </label>
+          <input
+            id="ticket-quantity"
+            type="text"
+            class="modal-input"
+            placeholder="How many"
+          />
+          <!-- Send To Email -->
+          <label for="ticket-email" class="modal-label">
+            <i class="ti-user"></i>
+            Send To
+          </label>
+          <input
+            id="ticket-email"
+            type="text"
+            class="modal-input"
+            placeholder="Enter Email"
+          />
+          <button id="buy-tickets">
+            Pay
+            <i class="ti-check"></i>
+          </button>
+        </div>
+        <footer class="modal-footer">
+          <p class="modal-help">Need <a href="">help?</a></p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
